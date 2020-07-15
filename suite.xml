@@ -19,6 +19,7 @@
 				<parameter name="url" value="https://book.spicejet.com/" />
 			</class>
 			<class name="testcases.ToolsQaFileUploading"/>
+			<class name="testcases.EmailAutomation"/>
 		</classes>
 	</test>
 </suite>

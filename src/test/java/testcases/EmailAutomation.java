@@ -27,6 +27,6 @@ public class EmailAutomation extends Base {
 
 	@Test(priority = 2)
 	public void login() {
-
+		System.out.println("login is done");
 	}
 }

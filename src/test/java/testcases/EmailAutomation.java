@@ -22,7 +22,8 @@ public class EmailAutomation extends Base {
 
 	@Test(priority = 1)
 	public void openApplication() {
-		driver.get("https://accounts.google.com/signin/v2");
+		String url = property.getProperty("url");
+		driver.get(url);
 	}
 
 	@Test(priority = 2)

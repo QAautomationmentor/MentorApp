@@ -1,14 +1,21 @@
 package Utilities;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.io.FileHandler;
+
 public class Base {
+	public static Properties property;
 
 	public static WebDriver initializeDriver() {
 		System.setProperty("webdriver.chrome.driver",
@@ -17,6 +24,14 @@ public class Base {
 		option.addArguments("--disable-notifications");
 		option.addArguments("start-maximized");
 		option.setAcceptInsecureCerts(true);
+		property = new Properties();
+		InputStream file;
+		try {
+			file = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\Utilities\\data.propeties");
+			property.load(file);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		return new ChromeDriver(option);
 	}
 
@@ -30,7 +45,6 @@ public class Base {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 		return destination.getAbsolutePath();
 	}
 }

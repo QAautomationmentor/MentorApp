@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-15T19:46:59 IST" name="EndToEndAutomationSuite" finished-at="2020-07-15T19:47:48 IST" duration-ms="48930">
+    <groups>
+    </groups>
+    <test started-at="2020-07-15T19:46:59 IST" name="AutomationTest" finished-at="2020-07-15T19:47:48 IST" duration-ms="48930">
+      <class name="testcases.ToolsQaFileUploading">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.ToolsQaFileUploading@609db43b]" started-at="2020-07-15T19:47:00 IST" name="tearUp" finished-at="2020-07-15T19:47:12 IST" duration-ms="12399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="openApplication()[pri:1, instance:testcases.ToolsQaFileUploading@609db43b]" started-at="2020-07-15T19:47:13 IST" name="openApplication" finished-at="2020-07-15T19:47:22 IST" duration-ms="9400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="uploadFile()[pri:2, instance:testcases.ToolsQaFileUploading@609db43b]" started-at="2020-07-15T19:47:22 IST" name="uploadFile" finished-at="2020-07-15T19:47:24 IST" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ToolsQaFileUploading@609db43b]" started-at="2020-07-15T19:47:24 IST" name="tearDown" finished-at="2020-07-15T19:47:28 IST" duration-ms="4312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ToolsQaFileUploading -->
+      <class name="testcases.firebaseApp">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.firebaseApp@5552768b]" started-at="2020-07-15T19:47:00 IST" name="tearUp" finished-at="2020-07-15T19:47:13 IST" duration-ms="12426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="openApplication(java.lang.String)[pri:1, instance:testcases.firebaseApp@5552768b]" started-at="2020-07-15T19:47:13 IST" name="openApplication" finished-at="2020-07-15T19:47:19 IST" duration-ms="6431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://qa-tekarch.firebaseapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="loginToApplication(java.lang.String, java.lang.String)[pri:2, instance:testcases.firebaseApp@5552768b]" started-at="2020-07-15T19:47:19 IST" name="loginToApplication" finished-at="2020-07-15T19:47:21 IST" duration-ms="2237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="registerStudent()[pri:3, instance:testcases.firebaseApp@5552768b]" started-at="2020-07-15T19:47:21 IST" name="registerStudent" finished-at="2020-07-15T19:47:29 IST" duration-ms="7230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerStudent -->
+        <test-method signature="uploadFile(java.lang.String)[pri:4, instance:testcases.firebaseApp@5552768b]" started-at="2020-07-15T19:47:29 IST" name="uploadFile" finished-at="2020-07-15T19:47:30 IST" duration-ms="1828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\autom\Desktop\QA_Skills.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.firebaseApp@5552768b]" started-at="2020-07-15T19:47:30 IST" name="tearDown" finished-at="2020-07-15T19:47:31 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.firebaseApp -->
+      <class name="testcases.SpiceJetAutomation">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:00 IST" name="tearUp" finished-at="2020-07-15T19:47:14 IST" duration-ms="13982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="launchApplication(java.lang.String)[pri:1, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:14 IST" name="launchApplication" finished-at="2020-07-15T19:47:24 IST" duration-ms="9842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://book.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchAndSelectFromCity()[pri:2, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:24 IST" name="searchAndSelectFromCity" finished-at="2020-07-15T19:47:30 IST" duration-ms="6116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndSelectFromCity -->
+        <test-method signature="searchAndSelectToCity()[pri:3, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:30 IST" name="searchAndSelectToCity" finished-at="2020-07-15T19:47:33 IST" duration-ms="2974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndSelectToCity -->
+        <test-method signature="departDate()[pri:4, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:33 IST" name="departDate" finished-at="2020-07-15T19:47:35 IST" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- departDate -->
+        <test-method signature="returnData()[pri:5, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:35 IST" name="returnData" finished-at="2020-07-15T19:47:37 IST" duration-ms="1942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnData -->
+        <test-method signature="selectPassenger()[pri:6, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:37 IST" name="selectPassenger" finished-at="2020-07-15T19:47:38 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPassenger -->
+        <test-method signature="selectCurrancy()[pri:7, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:38 IST" name="selectCurrancy" finished-at="2020-07-15T19:47:38 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrancy -->
+        <test-method signature="searchFlight()[pri:8, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:38 IST" name="searchFlight" finished-at="2020-07-15T19:47:48 IST" duration-ms="9520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.SpiceJetAutomation@3c947bc5]" started-at="2020-07-15T19:47:48 IST" name="teardown" finished-at="2020-07-15T19:47:48 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.SpiceJetAutomation -->
+    </test> <!-- AutomationTest -->
+  </suite> <!-- EndToEndAutomationSuite -->
+</testng-results>

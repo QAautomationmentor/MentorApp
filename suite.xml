@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EndToEndAutomationSuite" thread-count="5"
+	parallel="classes">
+	<listeners>
+		<listener class-name="Utilities.MyTestListener" />
+	</listeners>
+	<test name="AutomationTest">
+		<classes>
+			<class name="testcases.firebaseApp">
+				<parameter name="url"
+					value="https://qa-tekarch.firebaseapp.com/" />
+				<parameter name="username" value="admin123@gmail.com" />
+				<parameter name="password" value="admin123" />
+				<parameter name="file"
+					value="C:\Users\autom\Desktop\QA_Skills.txt" />
+			</class>
+			<class name="testcases.SpiceJetAutomation">
+				<parameter name="url" value="https://book.spicejet.com/" />
+			</class>
+			<class name="testcases.ToolsQaFileUploading"/>
+		</classes>
+	</test>
+</suite>

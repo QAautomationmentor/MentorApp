@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-17T19:58:04 IST" name="EndToEndAutomationSuite" finished-at="2020-07-17T19:59:12 IST" duration-ms="67597">
+  <suite started-at="2020-07-17T20:07:27 IST" name="EndToEndAutomationSuite" finished-at="2020-07-17T20:08:30 IST" duration-ms="62589">
     <groups>
     </groups>
-    <test started-at="2020-07-17T19:58:04 IST" name="AutomationTest" finished-at="2020-07-17T19:59:12 IST" duration-ms="67597">
+    <test started-at="2020-07-17T20:07:27 IST" name="AutomationTest" finished-at="2020-07-17T20:08:30 IST" duration-ms="62589">
       <class name="testcases.ToolsQaFileUploading">
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.ToolsQaFileUploading@68267da0]" started-at="2020-07-17T19:58:05 IST" name="tearUp" finished-at="2020-07-17T19:58:28 IST" duration-ms="23080" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.ToolsQaFileUploading@68267da0]" started-at="2020-07-17T20:07:28 IST" name="tearUp" finished-at="2020-07-17T20:07:38 IST" duration-ms="10401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method signature="openApplication()[pri:1, instance:testcases.ToolsQaFileUploading@68267da0]" started-at="2020-07-17T19:58:28 IST" name="openApplication" finished-at="2020-07-17T19:58:53 IST" duration-ms="25788" status="PASS">
+        <test-method signature="openApplication()[pri:1, instance:testcases.ToolsQaFileUploading@68267da0]" started-at="2020-07-17T20:07:38 IST" name="openApplication" finished-at="2020-07-17T20:08:14 IST" duration-ms="35753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="uploadFile()[pri:2, instance:testcases.ToolsQaFileUploading@68267da0]" started-at="2020-07-17T19:58:53 IST" name="uploadFile" finished-at="2020-07-17T19:58:56 IST" duration-ms="2082" status="PASS">
+        <test-method signature="uploadFile()[pri:2, instance:testcases.ToolsQaFileUploading@68267da0]" started-at="2020-07-17T20:08:14 IST" name="uploadFile" finished-at="2020-07-17T20:08:16 IST" duration-ms="2117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ToolsQaFileUploading@68267da0]" started-at="2020-07-17T19:58:56 IST" name="tearDown" finished-at="2020-07-17T19:59:01 IST" duration-ms="4944" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ToolsQaFileUploading@68267da0]" started-at="2020-07-17T20:08:16 IST" name="tearDown" finished-at="2020-07-17T20:08:16 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.ToolsQaFileUploading -->
       <class name="testcases.EmailAutomation">
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.EmailAutomation@2638011]" started-at="2020-07-17T19:58:05 IST" name="tearUp" finished-at="2020-07-17T19:58:28 IST" duration-ms="23080" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.EmailAutomation@2638011]" started-at="2020-07-17T20:07:28 IST" name="tearUp" finished-at="2020-07-17T20:07:38 IST" duration-ms="10431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method signature="openApplication()[pri:1, instance:testcases.EmailAutomation@2638011]" started-at="2020-07-17T19:58:28 IST" name="openApplication" finished-at="2020-07-17T19:58:44 IST" duration-ms="16224" status="PASS">
+        <test-method signature="openApplication()[pri:1, instance:testcases.EmailAutomation@2638011]" started-at="2020-07-17T20:07:38 IST" name="openApplication" finished-at="2020-07-17T20:07:46 IST" duration-ms="7874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="login()[pri:2, instance:testcases.EmailAutomation@2638011]" started-at="2020-07-17T19:58:44 IST" name="login" finished-at="2020-07-17T19:58:44 IST" duration-ms="1" status="PASS">
+        <test-method signature="login()[pri:2, instance:testcases.EmailAutomation@2638011]" started-at="2020-07-17T20:07:46 IST" name="login" finished-at="2020-07-17T20:07:46 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.EmailAutomation@2638011]" started-at="2020-07-17T19:58:44 IST" name="teardown" finished-at="2020-07-17T19:59:00 IST" duration-ms="16061" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.EmailAutomation@2638011]" started-at="2020-07-17T20:07:46 IST" name="teardown" finished-at="2020-07-17T20:07:46 IST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcases.EmailAutomation -->
       <class name="testcases.firebaseApp">
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T19:58:05 IST" name="tearUp" finished-at="2020-07-17T19:58:28 IST" duration-ms="23106" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T20:07:28 IST" name="tearUp" finished-at="2020-07-17T20:07:38 IST" duration-ms="10577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method signature="openApplication(java.lang.String)[pri:1, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T19:58:28 IST" name="openApplication" finished-at="2020-07-17T19:58:31 IST" duration-ms="2859" status="PASS">
+        <test-method signature="openApplication(java.lang.String)[pri:1, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T20:07:38 IST" name="openApplication" finished-at="2020-07-17T20:07:42 IST" duration-ms="3542" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="loginToApplication(java.lang.String, java.lang.String)[pri:2, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T19:58:31 IST" name="loginToApplication" finished-at="2020-07-17T19:58:34 IST" duration-ms="3453" status="PASS">
+        <test-method signature="loginToApplication(java.lang.String, java.lang.String)[pri:2, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T20:07:42 IST" name="loginToApplication" finished-at="2020-07-17T20:07:44 IST" duration-ms="1657" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,11 +74,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="registerStudent()[pri:3, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T19:58:34 IST" name="registerStudent" finished-at="2020-07-17T19:58:44 IST" duration-ms="9733" status="PASS">
+        <test-method signature="registerStudent()[pri:3, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T20:07:44 IST" name="registerStudent" finished-at="2020-07-17T20:07:50 IST" duration-ms="6508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerStudent -->
-        <test-method signature="uploadFile(java.lang.String)[pri:4, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T19:58:44 IST" name="uploadFile" finished-at="2020-07-17T19:58:49 IST" duration-ms="5071" status="PASS">
+        <test-method signature="uploadFile(java.lang.String)[pri:4, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T20:07:50 IST" name="uploadFile" finished-at="2020-07-17T20:07:59 IST" duration-ms="8959" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,17 +89,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T19:58:49 IST" name="tearDown" finished-at="2020-07-17T19:59:00 IST" duration-ms="11063" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.firebaseApp@2898ac89]" started-at="2020-07-17T20:07:59 IST" name="tearDown" finished-at="2020-07-17T20:08:04 IST" duration-ms="4966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.firebaseApp -->
       <class name="testcases.SpiceJetAutomation">
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:58:05 IST" name="tearUp" finished-at="2020-07-17T19:58:28 IST" duration-ms="23082" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:07:28 IST" name="tearUp" finished-at="2020-07-17T20:07:38 IST" duration-ms="10401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method signature="launchApplication(java.lang.String)[pri:1, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:58:28 IST" name="launchApplication" finished-at="2020-07-17T19:58:49 IST" duration-ms="21007" status="PASS">
+        <test-method signature="launchApplication(java.lang.String)[pri:1, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:07:38 IST" name="launchApplication" finished-at="2020-07-17T20:08:06 IST" duration-ms="27968" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,35 +110,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="searchAndSelectFromCity()[pri:2, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:58:49 IST" name="searchAndSelectFromCity" finished-at="2020-07-17T19:58:53 IST" duration-ms="4208" status="PASS">
+        <test-method signature="searchAndSelectFromCity()[pri:2, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:08:06 IST" name="searchAndSelectFromCity" finished-at="2020-07-17T20:08:11 IST" duration-ms="4491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAndSelectFromCity -->
-        <test-method signature="searchAndSelectToCity()[pri:3, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:58:53 IST" name="searchAndSelectToCity" finished-at="2020-07-17T19:58:55 IST" duration-ms="2403" status="PASS">
+        <test-method signature="searchAndSelectToCity()[pri:3, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:08:11 IST" name="searchAndSelectToCity" finished-at="2020-07-17T20:08:15 IST" duration-ms="4513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAndSelectToCity -->
-        <test-method signature="departDate()[pri:4, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:58:55 IST" name="departDate" finished-at="2020-07-17T19:58:57 IST" duration-ms="1999" status="PASS">
+        <test-method signature="departDate()[pri:4, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:08:15 IST" name="departDate" finished-at="2020-07-17T20:08:17 IST" duration-ms="2054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- departDate -->
-        <test-method signature="returnData()[pri:5, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:58:57 IST" name="returnData" finished-at="2020-07-17T19:58:59 IST" duration-ms="1836" status="PASS">
+        <test-method signature="returnData()[pri:5, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:08:17 IST" name="returnData" finished-at="2020-07-17T20:08:19 IST" duration-ms="1882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnData -->
-        <test-method signature="selectPassenger()[pri:6, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:58:59 IST" name="selectPassenger" finished-at="2020-07-17T19:59:00 IST" duration-ms="956" status="PASS">
+        <test-method signature="selectPassenger()[pri:6, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:08:19 IST" name="selectPassenger" finished-at="2020-07-17T20:08:20 IST" duration-ms="847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPassenger -->
-        <test-method signature="selectCurrancy()[pri:7, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:59:00 IST" name="selectCurrancy" finished-at="2020-07-17T19:59:00 IST" duration-ms="110" status="PASS">
+        <test-method signature="selectCurrancy()[pri:7, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:08:20 IST" name="selectCurrancy" finished-at="2020-07-17T20:08:20 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCurrancy -->
-        <test-method signature="searchFlight()[pri:8, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:59:00 IST" name="searchFlight" finished-at="2020-07-17T19:59:10 IST" duration-ms="10236" status="PASS">
+        <test-method signature="searchFlight()[pri:8, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:08:20 IST" name="searchFlight" finished-at="2020-07-17T20:08:30 IST" duration-ms="9625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFlight -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T19:59:10 IST" name="teardown" finished-at="2020-07-17T19:59:12 IST" duration-ms="1191" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.SpiceJetAutomation@683dbc2c]" started-at="2020-07-17T20:08:30 IST" name="teardown" finished-at="2020-07-17T20:08:30 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

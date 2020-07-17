@@ -11,7 +11,7 @@ public class ExtentReportNG {
 	public static ExtentReports extent;
 
 	public static ExtentReports extentReportGenerator() {
-		File filePath = new File("D:\\reports\\extent_report.html");
+		File filePath = new File(System.getProperty("user.dir")+"\\src\\test\\java\\reports\\extent_report.html");
 		ExtentSparkReporter reporter = new ExtentSparkReporter(filePath);
 		reporter.config().setDocumentTitle("Test Results");
 		reporter.config().setReportName("Web Automation Report");

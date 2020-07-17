@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [EndToEndAutomationSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Utilities.MyTestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="AutomationTest(failed)" verbose="0">
+    <classes>
+      <class name="testcases.firebaseApp">
+        <parameter name="password" value="admin123"/>
+        <parameter name="file" value="C:\Users\autom\Desktop\QA_Skills.txt"/>
+        <parameter name="url" value="https://qa-tekarch.firebaseapp.com/"/>
+        <parameter name="username" value="admin123@gmail.com"/>
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearUp"/>
+          <include name="registerStudent"/>
+        </methods>
+      </class> <!-- testcases.firebaseApp -->
+    </classes>
+  </test> <!-- AutomationTest(failed) -->
+</suite> <!-- Failed suite [EndToEndAutomationSuite] -->

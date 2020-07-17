@@ -37,8 +37,7 @@ public class Base {
 	public static String captureScreenshot(String screenshotName, WebDriver driver) {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-		File destination = new File(
-				System.getProperty("user.dir") + "\\src\\test\\java\\reports\\" + screenshotName + ".png");
+		File destination = new File("D:\\reports\\" + screenshotName + ".png");
 		try {
 			FileHandler.copy(src, destination);
 		} catch (IOException e) {

@@ -22,7 +22,7 @@ public class firebaseApp extends Base {
 
 	@BeforeClass
 	public void tearUp() {
-		driver = initializeDriver();
+		driver = initializeChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}

@@ -22,7 +22,7 @@ public class SpiceJetAutomation extends Base {
 
 	@BeforeClass
 	public void tearUp() {
-		driver = initializeDriver();
+		driver = initializeChromeDriver();
 	}
 
 	@AfterClass

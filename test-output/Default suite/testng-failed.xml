@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.SendMailSSLWithAttachment">
+      <class name="testcases.TestIEBrowser">
         <methods>
-          <include name="sendMail"/>
+          <include name="tearUp"/>
+          <include name="printMessage"/>
+          <include name="tearDown"/>
+          <include name="openApplication"/>
         </methods>
-      </class> <!-- testcases.SendMailSSLWithAttachment -->
+      </class> <!-- testcases.TestIEBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

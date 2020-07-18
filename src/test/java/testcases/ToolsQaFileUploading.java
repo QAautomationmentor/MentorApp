@@ -21,7 +21,7 @@ public class ToolsQaFileUploading extends Base {
 
 	@BeforeClass
 	public void tearUp() {
-		driver = initializeDriver();
+		driver = initializeChromeDriver();
 	}
 
 	@AfterClass
